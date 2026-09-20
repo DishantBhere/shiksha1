@@ -1,9 +1,10 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Geist, Geist_Mono, Press_Start_2P } from 'next/font/google'
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
+const pixel = Press_Start_2P({ subsets: ['latin'], weight: '400', variable: '--font-pixel' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
@@ -41,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geist.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geist.variable} ${geistMono.variable} ${pixel.variable} antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
