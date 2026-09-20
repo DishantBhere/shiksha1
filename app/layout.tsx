@@ -10,8 +10,8 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'], variable: '-
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'EduFinance AI — Financial clarity for every school',
-  description: 'Run your school\'s finances with AI. Fee collection, parent communication and financial intelligence in one platform.',
+  title: 'ShikshaOne — Financial clarity for every school',
+  description: 'ShikshaOne brings fee collection, parent communication and financial intelligence into one platform.',
   generator: 'v0.app',
   icons: {
     icon: [
