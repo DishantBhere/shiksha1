@@ -4,7 +4,7 @@
 
 ### Financial clarity for every school.
 
-**A school financial intelligence & fee-management platform** — connecting admins and parents on one clean, AI-powered system.
+**A school financial intelligence & fee-management platform** ~ connecting admins and parents on one clean, AI-powered system.
 
 Built for the **Smart School FinTech Innovation Challenge 2026** 🏆
 
